@@ -1,0 +1,429 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body{
+  font-family: 'Public Sans', sans-serif;
+  font-size: 18px;
+}
+ul{
+  list-style: none;
+}
+.nav-ul > li > a{
+  text-decoration: none;
+  color:  #9698A6;
+}
+.btn{
+  background: rgb(43,183,218);
+  background: linear-gradient(297deg, rgba(43,183,218,1) 39%, rgba(49,211,92,1) 82%);
+  display: inline-block;
+  color: #ffffff;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-align: center;
+  text-decoration: none;
+}
+.btn:hover{
+  background: rgb(34,183,118);
+  background: linear-gradient(297deg, rgba(34,183,218,1) 39%, rgba(24,211,92,1) 82%);
+  transition: 0.3s;
+}
+.hero-h2{
+  color: #2D314D;
+}
+.hero-p{
+  color: #9698A6;
+}
+.why{
+  color: #2D314D;
+}
+.why-p{
+  color: #9698A6;
+}
+.reasons-section{
+  background-color: #f3f4f6;
+  padding: 20px;
+}
+.reasons{
+  display: flex;
+}
+.reasons-title{
+  color:#2D314D;
+}
+.reasons-p{
+  color:#9698a6;
+}
+.articles-section{
+  padding: 20px;
+  background-color: #fafafa;
+  width: 100%;
+}
+.articles-section > h2{
+  color: #2d314d;
+}
+.articles{
+  display: flex;
+}
+.card{
+  background-color: #ffffff;
+  box-shadow: 0 8px 48px #d7d7d7;
+ }
+.card-img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+ }
+ .author{
+  color:#9698a6;
+ }
+ .card-link{
+  color:#2d314d;
+}
+.card-link{
+  text-decoration: none;
+  color: #2d314d;
+}
+.card-topic :hover{
+  color: #31d35c;
+  transition: 0.3s;
+}
+.card-text{
+  color: #9698a6;
+}
+footer{
+  background-color: #2d314d;
+}
+.footer-texts{
+  color: #f4f5f6;
+  text-decoration: none;
+   }
+.footer-items > div > ul> li :hover{
+  color: #31d35c;
+  transition: 0.3s;
+}
+.facebook :hover{
+  color: #e67e22;
+}
+.footer-items{
+  display: flex;
+    margin: 0 30px;
+   }
+footer > div > p{
+  color: #9698a6;
+}
+
+ .socials{
+  display: flex;
+  font-size: 1.6rem;
+ }
+ .socials > li{
+  margin-left: 8px;
+ }
+/* FOR LARGE DEVICES */
+@media  (min-width: 1024px){
+  .logo{
+    display: inline;
+    max-width: 300px;
+    max-height: 20px;
+  }
+  .nav-bar{
+    position: relative;
+    z-index: 6;
+  }
+ .hamburger-menu{
+  display: none;
+ }
+ .hero-box{
+  display: none;
+ }
+ 
+ .hero-img{
+  position: absolute;
+  top: 0;
+  right:0;
+  margin-left: 20%;
+  z-index: 4;
+ }
+ .desk-img{
+    position: absolute;
+    left: 68px;
+    top: -225px;
+    object-fit: cover;
+ }
+ .reasons-section{
+  position: static;
+ }
+ .hero{
+  display: flex;
+  width: 100%;
+  height: 100%;
+ }
+ .hero-text{
+  margin-left: 3%;
+  padding-left: 8%;
+  margin-top: 15%;
+ }
+ .hero-text > h2{
+  width: 320px;
+  font-weight: 400;
+  font-size: 2.5rem;
+ }
+ .hero-text > p{
+  width: 460px;
+  margin: 2% 0;
+ }
+ .hero-new{
+  display: flex;
+  justify-content: space-between;
+ }
+ .hero-section{
+  display: none;
+background-color: #FAFAFA;
+background-image: url("./images/bg-intro-desktop.svg");
+background-repeat: no-repeat; 
+ } 
+ .nav-bar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 18px 0;
+ }
+ .nav-ul{
+  display: flex;
+ }
+ .nav-ul > li > a:hover{
+  color: #2d314d;
+  border-bottom: 2px solid #31d35c;
+  transition: 0.3s;
+ }
+ .nav-ul > li{
+  margin-left:20px;
+ }
+ .nav-req{
+  
+ }
+ .reasons-section{
+  padding: 4% 4% 7% 6%;
+  line-height: 1.6rem;
+ }
+ .why{
+  font-weight: 400;
+  font-size: 2.5rem;
+  margin-bottom: 2%;
+ }
+ .why-p{
+  margin-bottom: 6%;
+  width: 690px;
+ }
+ .reasons{
+  flex-direction: row;
+  gap: 20px;
+}
+.reasons-title{
+  margin: 20px 0;
+  padding: 0 2.1%;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+.reasons-p{
+  padding: 0 2.1%;
+}
+ .articles-section{
+  padding: 4% 4% 6% 6%;
+ }
+ .articles-section > h2{
+  margin-left: 1.25%;
+  margin-bottom: 4%;
+  font-weight: 300;
+  font-size: 2.5rem;
+ }
+ .articles{
+  flex-direction: row;
+  gap: 30px;
+  padding: 16px;
+ }
+ .card-box{
+  padding: 24px;
+  padding-bottom: 24px;
+ }
+ .card-topic{
+  font-weight: 400;
+margin-top: 8px;
+ }
+ .card-text{
+  font-weight: 300;
+  margin-top: 8px;
+  line-height: 1.2;
+ }
+ footer{
+  display: flex;
+  justify-content: space-between;
+ }
+ .footer-items{
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+ }
+ .footer-items > div{
+  margin-left: 80px;
+  padding: 48px 0px;
+ }
+ .footer-items > div > ul> li{
+margin-top: 16px;
+
+ }
+ .footer-btn{
+  margin-top: 5%;
+  margin-right: 8%;
+}
+ 
+.footer-btn > p{
+  margin-top: 12%;
+ }
+ .socials{
+  margin-top: 40px;
+ }
+ .nav-btn{
+  margin-left: 37%;
+ }
+}
+
+/* FOR SMALL DEVICES */
+
+  @media (max-width: 1023px) and (min-width: 10px){
+ .nav-bar{
+  padding: 16px;
+  margin: 0 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+ .nav-ul{
+  display: block;
+  position: absolute;
+  background-color: #ffffff;
+  padding: 8px 48px 24px 48px;
+  top: 90px;
+  border-radius: 6px;
+  width:90%;
+  margin-left: auto;
+  box-shadow: 2px 6rem 4rem rgba(0, 0, 0, 0.5);
+ }
+ .nav-ul >li{
+  margin-top: 16px;
+  text-align: center;
+ }
+ .nav-ul > li > a {
+  color: #2d314d;
+ }
+ .showMenu{
+  display: none;
+ }
+ .nav-req{
+  display: none;
+ }
+ .hero-section{
+  background-image: url("./images/bg-intro-mobile.svg");
+  background-size: cover;
+  background-position: center;
+ }
+ .desk-img{
+  display: none;
+ }
+ .hero-box{
+  width: 93%;
+  margin-left: 3.5%;
+ }
+ .hero-img{
+  display: none;
+ }
+ .hero-text{
+  text-align: center;
+  padding-bottom: 3rem;
+ }
+ .hero-h2{
+  margin-top: 1.6rem;
+  font-size: 40px;
+  font-weight: 400;
+ }
+.hero-p{
+  margin: 16px 0 24px 0px;
+  line-height: 1.6rem;
+}
+.why{
+  width: 70%;
+  margin: 0px auto;
+  font-size: 2.1rem;
+  font-weight: 400;
+}
+.reasons-section{
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.reasons-section > div > p{
+  margin: 16px 0px 2.8rem 0px;
+  line-height: 1.6rem;
+}
+.reasons-title{
+  margin: 16px 0px;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.reasons{
+  flex-direction: column;
+}
+.reasons > div > p{
+  line-height: 1.6rem;
+  margin-bottom: 2rem;
+}
+.articles-section{
+  padding-top: 5rem;
+}
+.articles-section >h2{
+  text-align: center;
+  margin-bottom: 1.8rem;
+  color: #2d314d;
+  font-weight: 400;
+  font-size: 2.1rem;
+}
+.card{
+  margin-bottom: 24px;
+}
+.card-box{
+  padding: 24px;
+  margin-bottom:28px;
+}
+.card-topic{
+  font-weight: 400;
+  margin: 12px 0px;
+}
+.card-text{
+  
+}
+.articles{
+  flex-direction: column;
+ }
+ footer{
+  text-align: center;
+  font-weight: 300;
+  padding: 30px;
+ }
+ .socials{
+  width: 180px;
+  margin: 0px auto;
+ }
+ .footer-items > div > ul> li{
+  margin-top: 16px;
+ }
+ .footer-items{
+  flex-direction: column;
+  align-content: center;
+ }
+ .nav-btn{
+  margin: 24px 0px;
+ }
+}
