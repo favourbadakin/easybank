@@ -1,7 +1,7 @@
 # This Website is UNCOMPLETED but it is hosted on
 https://easybank-fav.netlify.app/
 
-### Suitable for `MOBILE VIEW` Little fixes to be done for `DESKTOP VIEW` 
+### Suitable for `MOBILE VIEW`, little fixes to be done for `DESKTOP VIEW` 
 
 
 # Getting Started with Create React App
