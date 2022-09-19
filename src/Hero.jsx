@@ -21,6 +21,7 @@ export default function Hero(){
                  <a className='btn hero-btn' href='/#'>Request Invite</a>
         </div>
         
+
         <div>
             
         <img className='desk-img' src={desktop} alt="desktop" />
