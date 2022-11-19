@@ -2,7 +2,6 @@ import React from 'react';
 import {AiFillFacebook, AiFillYoutube, AiOutlineTwitter, AiOutlineInstagram} from 'react-icons/ai';
 import {ImPinterest} from 'react-icons/im';
 import logo from './images/logo-white.svg'
-
 export default function Footer(){
     return(
         <footer>
