@@ -4,7 +4,6 @@ import img from './images/image-mockupss.png'
 import desktop from  './images/bg-intro-desktop.svg';
 
 export default function Hero(){
-
     return(
         <section className='hero'>
         <div className='hero-section'>
